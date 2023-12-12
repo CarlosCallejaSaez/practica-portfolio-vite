@@ -1,0 +1,22 @@
+h2 {
+  color: var(--black-color);
+}
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+li {
+  background-color: var(--gold-color);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+}

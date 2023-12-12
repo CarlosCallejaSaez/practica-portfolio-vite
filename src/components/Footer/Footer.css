@@ -1,0 +1,13 @@
+footer {
+  background-color: var(--black-color);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.linkedin-button {
+  color: var(--white-color);
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
