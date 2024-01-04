@@ -1,4 +1,3 @@
-
 import React from 'react';
 import classes from "./Pro.module.css"
 
@@ -19,7 +18,7 @@ function Projects({ projects }) {
     };
 
     return (
-        <section className={classes.projects_section}>
+        <section className={classes.projects_section} id="projects">
             <h2>Projects</h2>
             <div className={classes.projects_container}>{renderProjects()}</div>
         </section>

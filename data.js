@@ -48,7 +48,10 @@ export const data = {
     "MongoDB",
     "RESTful API",
     "Git",
-    "Frontend and Backend Development",
+    "Testing",
+    "Python",
+    "React Native",
+    "AWS"
   ],
   projects: [
     {

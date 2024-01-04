@@ -29,7 +29,7 @@ function MainContent({ data }) {
     return (
         <main>
             <section>
-                <div className="about-me-container">
+                <div className="about-me-container" id='about-me-container'>
                     <img
                         src={data.avatar}
                         alt="Avatar"
@@ -43,7 +43,7 @@ function MainContent({ data }) {
                 </div>
             </section>
 
-            <section className="education-container">
+            <section className="education-container" id='education-container'>
                 <h2>Education</h2>
                 <p>{data.education.degree}</p>
                 <p>{data.education.university}</p>
@@ -51,7 +51,7 @@ function MainContent({ data }) {
                 <ul>{renderCourses()}</ul>
             </section>
 
-            <section className="work-container">
+            <section className="work-container" id='work-container'>
                 <h2>Work Experience</h2>
                 <div className="work-experience">{renderWorkExperience()}</div>
             </section>
